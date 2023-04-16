@@ -1,0 +1,8 @@
+.grid-container {
+    display: grid;
+    place-content: center;
+    grid-auto-flow: dense;
+    gap: 2px;
+    padding: 60px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
